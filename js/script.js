@@ -3,10 +3,8 @@ function togglemode(){
     html.classList.toggle("light") 
     const img = document.querySelector("#profile img")
     if(html.classList. contains("light")) {
-
-        img.setAttribute("src","./Avatar.png")
-        
+        img.setAttribute("src","assets/Avatar.png")
     }else{
-        img.setAttribute("src", "./pedro.jpg") 
-    }   
+        img.setAttribute("src", "assets/Pedro.jpg") 
+    }
 }  

@@ -5,22 +5,22 @@
 } 
 :root {
         --text-color:white;
-        --bg-url: url(./Mobile.jpg);
+        --bg-url: url(../assets/Mobile.jpg);
         --stroke-color: rgba(255,255,255, 0.5);
         --surface-color: rgba(255,255,255, 0.1);
         --surface-colo-hover: rgba(0,0,0, 0.2);
         --highlinght-color: rgba(255,255,255, 0.2);
-        --switch-bg-url: url(./MoonStars.svg);
+        --switch-bg-url: url(../assets/MoonStars.svg);
 }
 
 .light{
     --text-color:black;
-    --bg-url: url(./claro.jpg);
+    --bg-url: url(../assets/claro.jpg);
     --stroke-color: rgba(0,0,0, 0.5);
     --surface-color: rgba(0,0,0, 0.5);
     --surface-colo-hover: rgba(0,0,0, 0.2);
     --highlinght-color: rgba(0,0,0, 0.1);
-    --switch-bg-url: url(Sun.svg);
+    --switch-bg-url: url(../assets/Sun.svg);
 }
 
 
